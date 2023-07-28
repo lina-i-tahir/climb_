@@ -1,0 +1,22 @@
+* {
+  margin: none;
+}
+
+.navbar-container {
+  background-color: rgb(35, 35, 35);
+  height: 30px;
+  margin-top: 0;
+  text-align: right;
+  font-size: 30px;
+  text-decoration: none;
+}
+a {
+  color: whitesmoke;
+  text-decoration: none;
+  margin-right: 10px;
+}
+section {
+  background-color: blanchedalmond;
+  text-align: left;
+  height: 30px;
+}
