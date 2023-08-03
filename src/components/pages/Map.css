@@ -1,0 +1,84 @@
+.direction-box {
+  position: fixed;
+  display: flex;
+  z-index: 1;
+  background: #232329;
+  padding: 3%;
+  margin: 5px;
+  color: azure;
+  top: 0%;
+  left: 0%;
+  border-radius: 20px;
+  width: 300px;
+  height: 30%;
+}
+
+.input-text {
+  position: fixed;
+  display: inline-block;
+  width: 250px;
+}
+input[type="text"] {
+  width: 100%;
+  padding: 5px;
+  margin: 5px;
+  border: 2px solid #555555;
+  border-radius: 15px;
+}
+input[type="text"]:focus {
+  border: 2px solid #ffffff;
+}
+.direction-box-lower {
+  display: flex;
+}
+.button-group {
+  position: fixed;
+  display: inline-block;
+  justify-content: center;
+  text-align: center;
+  top: 150px;
+}
+.button {
+  background-color: #232329;
+  color: azure;
+  border: 1px solid #555;
+  border-radius: 20px;
+  margin: 5px;
+  padding: 10px;
+  transition-duration: 0.4s;
+}
+
+.button:hover {
+  background-color: #232329;
+  border: 2px solid #ffffff;
+  color: azure;
+}
+.results-group {
+  position: fixed;
+  display: inline-block;
+  top: 230px;
+  font-size: 100%;
+  justify-content: center;
+  text-align: center;
+}
+.results.icon {
+  display: inline-block;
+  margin-left: 15px;
+}
+.body {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  z-index: 1;
+  width: 100%;
+  height: 100vh;
+}
+.map {
+  width: 100%;
+  height: 100vh;
+}
+.map-container {
+  width: 100%;
+  height: 100vh;
+}

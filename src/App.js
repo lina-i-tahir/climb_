@@ -1,21 +1,24 @@
 import "./App.css";
 import "./components/Button.css";
-import { Router, Routes, Link } from "react-router-dom";
-import Section from "./components/Section";
-import Header from "./components/Header";
+import { Router, Routes, Link, Route } from "react-router-dom";
+import Home from "./components/pages/Home";
+import MapPage from "./components/pages/MapPage";
+import About from "./components/pages/About";
+
+import SharedLayout from "./components/pages/SharedLayout";
+import CList from "./components/pages/CList";
 
 function App() {
   return (
     <div className="App">
-      <Header />
-
-      <Section />
-      {/* <div className="type-of-climb">hard</div>
-      <div className="areas">wet</div> */}
-
-      {/* <button>let's go!</button> */}
-
-      {/* <result></result> */}
+      <Routes>
+        <Route path="/" element={<SharedLayout />}>
+          <Route index element={<Home />} />
+          <Route path="about" element={<About />} />
+          <Route path="mappage" element={<MapPage />} />
+          <Route path="clist" element={<CList />} />
+        </Route>
+      </Routes>
     </div>
   );
 }
