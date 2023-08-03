@@ -3,12 +3,12 @@ import "./Navbar.css";
 const Navbar = () => {
   return (
     <>
-      <div className="navbar-container">
+      <h1 className="navbar-container">
         <NavLink to="/">home</NavLink>
         <NavLink to="/about">about</NavLink>
         <NavLink to="/clist">climbs</NavLink>
         <NavLink to="/mappage">map</NavLink>
-      </div>
+      </h1>
     </>
   );
 };

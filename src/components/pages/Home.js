@@ -3,7 +3,7 @@ import "./Home.css";
 const Home = () => {
   return (
     <>
-      <div className="home">what's your climb today?</div>
+      <h1 className="home">what's your climb today?</h1>
     </>
   );
 };
